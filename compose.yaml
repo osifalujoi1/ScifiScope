@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=scifiScope'
+      - 'POSTGRES_PASSWORD=password'
+      - 'POSTGRES_USER=ife'
+    ports:
+      - '5432:5432'
