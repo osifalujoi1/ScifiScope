@@ -21,7 +21,7 @@ public class ScifiScopeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ScifiScopeApplication.class, args);
 	}
-	//Tell Spring about your http client so it can set it up for you instead of setting it up yourself
+	//Tell Spring about your http client, so it can set it up for you instead of setting it up yourself
 	@Bean
 	UserHttpClient userHttpClient() {
 		RestClient restClient = RestClient.create("https://jsonplaceholder.typicode.com");

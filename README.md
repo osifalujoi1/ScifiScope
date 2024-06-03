@@ -1,5 +1,5 @@
 # Web Application using Java and Spring Boot
-An application that allows you track unreleased Sci-fi movie through a REST API.
+An application that allows you track unreleased Sci-fi movies through a REST API.
 
 ## Description
 * This program reads in a list of sci-fi movies from a JSON file and stores it in a database. 
