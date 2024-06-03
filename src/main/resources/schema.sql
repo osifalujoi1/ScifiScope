@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS Movie;
-
 CREATE TABLE IF NOT EXISTS Movie(
     id INT NOT NULL,
     title varchar(250) NOT NULL,

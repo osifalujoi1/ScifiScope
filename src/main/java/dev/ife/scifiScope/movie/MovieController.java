@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+// A REST API controller class that handles CRUD operations (Create, Read, Update, Delete) for movies stored in the database.
 @RestController
 @RequestMapping("/api/movies")
 public class MovieController {
