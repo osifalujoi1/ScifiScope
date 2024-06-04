@@ -10,6 +10,7 @@ An application that allows you track unreleased Sci-fi movies through a REST API
   - The CRUD methods are written manually in "JdbcClientMovieRepository" class using JdbcClient object.
   - While "MovieRepository" is an interface that used ListCrudRepository methods in spring data jdbc dependency instead of manually writing the operations. Therefore, enhancing readability and simplicity.
 - The API folder contains a json that can be imported to Postman for testing purposes.
+- Used RestClient and the already existing Builder class to make API calls accross HTTP to another service that provides fake user logins. This was done to simulate real-life applications, where users might be required to sign in to view content and a separate api handles the operation.
 ### Prerequisites
 - Java JDK 17 or newer
 - Maven (for building the application)
