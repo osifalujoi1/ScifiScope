@@ -13,5 +13,5 @@ An application that allows you track unreleased Sci-fi movies through a REST API
 
 ### App Limitations
 - Built to practice Java, Spring boot 3, and Database connectivity
-- Does not have a front-end yet.
+- Does not have a pretty front-end yet, only in Json.
 - Does not update the list of movies based on past dates.
