@@ -29,7 +29,7 @@ public class JdbcClientMovieRepository {
     public Optional<Movie> findById(Integer id){
         return jdbcClient.sql("SELECT id,title,release_date,prod_company,review,rating,url FROM Movie WHERE id = :id")
                 .param("id", id)
-                .query(Movie.class)//map to a run
+                .query(Movie.class)//map to a movie
                 .optional();//return as optional
     }
 
